@@ -1,0 +1,31 @@
+# Source files (only publish dist)
+nodes/
+credentials/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# Git files
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+
+# Dev files
+*.log
+coverage/
+.env*
+
+# Documentation source (README is included)
+docs/
+
+# Development dependencies
+node_modules/
